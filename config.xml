@@ -41,9 +41,9 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-		<plugin name="com.phonegap.plugins.facebookconnect" spec="0.4.0" source="pgb">
+		<plugin name="com.phonegap.plugins.facebookconnect" spec="0.4.0"> source="pgb">
 		    <param name="APP_ID" value="1708683849350070" />
-		    <param name="APP_NAME" value="Sleep Coach" />
+		    <param name="APP_NAME" value="SleepCoach" />
 		</gap:plugin>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
