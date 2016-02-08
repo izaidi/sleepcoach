@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+    <name>Sleep Coach</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Competitive sleep tracking app.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="imran.zaidi@gmail.com" href="http://izaidi.me">
+        Imran Zaidi
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
@@ -41,6 +41,10 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
+		<plugin name="com.phonegap.plugins.facebookconnect" spec="0.4.0" source="pgb">
+		    <param name="APP_ID" value="1708683849350070" />
+		    <param name="APP_NAME" value="Sleep Coach" />
+		</gap:plugin>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
